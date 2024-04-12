@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #1e88e5; /* Mavi rengi */
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #a8c0d7;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="text"]::placeholder {
+  color: #a8c0d7; /* Gri placeholder */
+}
+
+select {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+h3 {
+  color: #1e88e5; /* Mavi rengi */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1e88e5; /* Mavi rengi */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1565c0; /* Hover rengi */
+}
